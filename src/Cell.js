@@ -4,7 +4,7 @@ export default class Cell extends React.Component {
     constructor(props){
         super(props)
         this.state = {
-            color: this.props.value
+            color: props.value
         }
     }
     handleClick = () => {
