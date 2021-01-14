@@ -1,7 +1,6 @@
+import React from 'react'
 
-import React, {Component} from 'react';
-
-export default class Cell extends Component {
+export default class Cell extends React.Component {
     constructor(props){
         super(props)
         this.state = {
