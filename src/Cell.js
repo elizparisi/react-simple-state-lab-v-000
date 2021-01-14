@@ -7,6 +7,7 @@ export default class Cell extends React.Component {
             color: props.value
         }
     }
+    
     handleClick = () => {
         this.setState({
             color: '#333'
